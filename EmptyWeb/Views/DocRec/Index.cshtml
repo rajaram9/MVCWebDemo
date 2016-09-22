@@ -1,0 +1,29 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <script type="text/javascript" src="~/Scripts/jquery-3.1.0.js"></script>
+</head>
+<body>
+    <div>
+    <h3>
+        @ViewBag.PageName
+         Session["val"] = @ViewData["val"]
+    </h3>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {
+        $.getJSON("/DocRec/todolist", {}, function (data) {
+            //alert(data.Id + data.Name);
+            alert(JSON.stringify(data));
+        });
+    });
+</script>
