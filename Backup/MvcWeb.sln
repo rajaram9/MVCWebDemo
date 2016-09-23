@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyMvc3", "EmptyMvc3\EmptyMvc3.csproj", "{7FC69579-CC88-4CFB-AAF6-8DE48E951656}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyMvc4", "EmptyMvc4\EmptyMvc4.csproj", "{135FB95F-B0A4-483A-A4E8-B73192E4B431}"
